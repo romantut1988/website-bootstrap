@@ -107,6 +107,7 @@ header div.call-to a {
   background-image: url(../img/back-services.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  padding-bottom: 140px;
 }
 
 .services h2 {
@@ -241,4 +242,45 @@ header div.call-to a {
   color: #fff;
   background: #2ebaee;
   border: 1px solid #fff;
+}
+
+.man__img {
+  max-width: 100%;
+}
+
+.man__title {
+  font-size: 72px;
+  color: #000;
+  max-width: 600px;
+  margin-left: 75px;
+  margin-top: 60px;
+}
+
+.man__text {
+  color: #878787;
+  font-size: 16px;
+  max-width: 600px;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+.man__btn {
+  position: relative;
+  margin-top: 65px;
+  border-radius: 15px;
+  border: none;
+  background-color: #2ebaee;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  cursor: pointer;
+  margin-left: 75px;
+}
+
+.man__btn:hover {
+  color: #2ebaee;
+  background: #fff;
+  border: 1px solid #2ebaee;
 }
